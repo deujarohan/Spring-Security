@@ -1,4 +1,4 @@
-package com.example.spring_security;
+package com.example.spring_security.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,8 @@ import java.util.List;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.spring_security.model.Student;
 
 import jakarta.servlet.http.HttpServletRequest;
 

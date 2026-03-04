@@ -1,4 +1,4 @@
-package com.example.spring_security;
+package com.example.spring_security.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import jakarta.servlet.http.HttpServletRequest;
