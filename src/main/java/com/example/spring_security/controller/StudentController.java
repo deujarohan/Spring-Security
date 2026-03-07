@@ -30,6 +30,7 @@ public class StudentController {
         return students;
     }
 
+    //This endpoint returns the CSRF token to the client (browser or Postman).
     @GetMapping("/csrf")
     public CsrfToken getCsrfToken(HttpServletRequest request) {
         return (CsrfToken) request.getAttribute("_csrf");
